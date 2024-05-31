@@ -11,7 +11,7 @@ public class SampleController {
 
     @GetMapping("/")
     public String indexPage() {
-        return "쿠버네티스 역량 강화 스터디!! 화이팅입니다.";
+        return "쿠버네티스 역량 강화 스터디!! 화이팅구리~";
     }
 
     @GetMapping("/sample")
