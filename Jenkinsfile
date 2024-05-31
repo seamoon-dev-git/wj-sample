@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     triggers {
-        githubPush()
+        //push 되었을 때만 jenkins가 실행되도록 하는 것
+        githubPush() 
     }
 
     stages {
